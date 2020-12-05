@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNotesConsoleApp", "SimpleNotesConsoleApp\SimpleNotesConsoleApp.csproj", "{C73EA6CC-C000-4DBD-B4D6-96EBB35BF044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C73EA6CC-C000-4DBD-B4D6-96EBB35BF044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C73EA6CC-C000-4DBD-B4D6-96EBB35BF044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C73EA6CC-C000-4DBD-B4D6-96EBB35BF044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C73EA6CC-C000-4DBD-B4D6-96EBB35BF044}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41FD82CF-E318-4E8C-A728-D5C5658EF5EA}
+	EndGlobalSection
+EndGlobal
