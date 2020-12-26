@@ -10,11 +10,7 @@ namespace SimpleNotesConsoleApp
         {
             //user instructions
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            Console.WriteLine("This is a simple persistent notes application - created by peterpenguin");
-            Console.WriteLine("\nType any text and press enter to create a new note.");
-            Console.WriteLine("You can check your notes by typing >Notes<.");
-            Console.WriteLine("In order to delete all notes type >Delete<.");
-            Console.WriteLine("To close the application type >Close<.\n");
+            UserInst();
             
             //defining
             bool repeat = true;
@@ -51,6 +47,11 @@ namespace SimpleNotesConsoleApp
                         repeat = false;
                         break;
 
+                    case "Help":
+                        //giving user instructions from beginning
+                        UserInst();
+                        break;
+
                     default:
                         //adding notes to .txt file
                         string date = Convert.ToString(DateTime.Now);
@@ -62,6 +63,15 @@ namespace SimpleNotesConsoleApp
                 }
             }
 
+        }
+        static void UserInst()
+        {
+            Console.WriteLine("This is a simple persistent notes application - created by peterpenguin");
+            Console.WriteLine("\nType any text and press enter to create a new note.");
+            Console.WriteLine("You can check your notes by typing >Notes<.");
+            Console.WriteLine("In order to delete all notes type in >Delete<.");
+            Console.WriteLine("To get this instructions again type in >Help<.");
+            Console.WriteLine("To close the application type in >Close<.\n");
         }
     }
 }
